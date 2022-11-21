@@ -27,7 +27,7 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World !"}
 
 
 #    10h37 : https://www.freecodecamp.org/news/creating-apis-with-python-free-19-hour-course/
