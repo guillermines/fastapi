@@ -30,6 +30,14 @@ def root():
     return {"message": "Hello World !"}
 
 
-#    10h37 : https://www.freecodecamp.org/news/creating-apis-with-python-free-19-hour-course/
+#    12h05 : https://www.freecodecamp.org/news/creating-apis-with-python-free-19-hour-course/
 # uvicorn app.main:app --reload
 # c:/Users/Guillaume/Documents/code/fastapi/venv/Scripts/Activate.ps1
+
+
+# Sur la MV pour activer la machine virtuel : cd app puis source venv/bin/activate
+# pip install -r requirement.txt
+# crééer une environnemen variable export VAR = .. /unset / printenv
+#  set -o allexport; source /home/guillaume/.env; set +o allexport
+
+# gunicorn -w 4 -k uvicorn.workers.UvicornWorker app.main:app --bind 0.0.0.0:8000
